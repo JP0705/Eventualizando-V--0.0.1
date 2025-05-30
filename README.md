@@ -4,7 +4,7 @@
 Esse é um projeto com o objetivo de criar um site que permita marcar eventos e comprar ingressos para eventos cadastrados no site. O projeto foi contruido Utilizando o framework Spring, com backend em Java, gerenciado pelo Maven, com um banco de dados PostgreSQL e docker compose. O projeto utiliza de varias bilbiotecas para automacao devido o curto espaco de tempo desde o inicio da codagem ate a entrega da primeira versao.
 
 ## Instalacao
-atulize as dependencias do Maven.
+atualize as dependencias do Maven.
 ![alt text](image.png)
 ![alt text](image-1.png)
 A intalacao e basicamente subir o conteiner e startar a aplicacao apos o, com os comandos:
