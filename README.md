@@ -7,13 +7,13 @@ Esse é um projeto com o objetivo de criar um site que permita marcar eventos e 
 atualize as dependencias do Maven.
 ![alt text](image.png)
 ![alt text](image-1.png)
-A intalacao basicamente é subir o conteiner e startar a aplicacao apos o, com os comandos:
-'''bash
+A intalacao basicamente é subir o conteiner e startar a aplicacao apos o, com os comandos:<br>
+
 docker-compose up -d<br>
-./mvnw spring-boot:run
-'''
-apos isso para acessar a aplicacao e so abrir o navegado e carregar algun dos URLs(O Google Chrome foi usado para criar as paginas entao pode haver bugs de responsividade) :
-'''bash
+./mvnw spring-boot:run<br>
+
+apos isso para acessar a aplicacao e so abrir o navegado e carregar algun dos URLs(O Google Chrome foi usado para criar as paginas entao pode haver bugs de responsividade) :<br>
+
 http://localhost:8080/<br>
 http://localhost:8080/eventos<br>
 http://localhost:8080/eventos/novo<br>
@@ -24,7 +24,7 @@ http://localhost:8080/carrinho<br>
 http://localhost:8080/pagamento<br>
 http://localhost:8080/pesquisa<br>
 http://localhost:8080/work-in-progress
-'''
+
 
 ## Ferramentas utilizadas no desenvolvimento e possivelmente necessarias no uso
 - IntelliJ IDEA Community Edition 2025.1.1.1<br>
