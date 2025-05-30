@@ -7,7 +7,7 @@ Esse é um projeto com o objetivo de criar um site que permita marcar eventos e 
 atualize as dependencias do Maven.
 ![alt text](image.png)
 ![alt text](image-1.png)
-A intalacao basicamente é subir o conteiner e startar a aplicacao apos o, com os comandos:<br>
+A intalacao basicamente é subir o conteiner e startar a aplicacao, com os comandos:<br>
 
 - docker-compose up -d<br>
 - ./mvnw spring-boot:run<br>
