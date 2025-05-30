@@ -9,8 +9,8 @@ atualize as dependencias do Maven.
 ![alt text](image-1.png)
 A intalacao basicamente é subir o conteiner e startar a aplicacao apos o, com os comandos:<br>
 
-docker-compose up -d<br>
-./mvnw spring-boot:run<br>
+- docker-compose up -d<br>
+- ./mvnw spring-boot:run<br>
 
 apos isso para acessar a aplicacao e so abrir o navegado e carregar algun dos URLs(O Google Chrome foi usado para criar as paginas entao pode haver bugs de responsividade) :<br>
 
