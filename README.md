@@ -11,7 +11,7 @@ A intalacao basicamente é subir o conteiner e startar a aplicacao, com os coman
 
 - docker-compose up -d<br>
 - ./mvnw spring-boot:run<br><br>
-Para finalizar a aplicacao é so dar um 'Ctrl + c'.<br><br>
+Para finalizar a aplicacao é so dar um 'Ctrl + c' no terminal.<br><br>
 apos isso para acessar a aplicacao e so abrir o navegado e carregar algun dos URLs(O Google Chrome foi usado para criar as paginas entao pode haver bugs de responsividade) :<br>
 
 http://localhost:8080/<br>
