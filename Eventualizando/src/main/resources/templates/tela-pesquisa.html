@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de evento</title>
+    <link rel="stylesheet" th:href="@{/css/tela-pesquisa.css}">
+    <link rel="icon" th:href="@{/logo.ico}">
+</head>
+
+<header>
+    <div class="topo">
+        <nav>
+            <ul>
+                <li>
+                    <a th:href="@{/eventos}">
+                        <img class="img1" th:src="@{/images/EVENTUALIZANDO_A.png}" >
+                    </a>
+                </li>
+                <li>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Busque por evento, artista ou local...">
+                        <a th:href="@{/work-in-progress}">
+                            <button class="busca">Buscar</button>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<body>
+    <div class="lateral">
+        <aside class="sidebar">
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbotao">Filtro de Pesquisa</button>
+                <div id="meuDropdown" class="dropdown-content">
+                    <p>Shows</p>
+                    <p>Teatro</p>
+                    <p>Comédia</p>
+                    <p>Esporte</p>
+                    <p>Infantil</p>
+                    <p>Geek</p>
+                    <p>Outros</p>
+                </div>
+            </div>
+
+            <h1>Cidade</h1>
+
+            <select>
+                <option>Selecione</option>
+                <option>Goiânia</option>
+            </select>
+
+            <label>Data</label>
+            <input type="date">
+            <input type="date">
+
+            <label>Faixa de Preço</label>
+            <input type="number" placeholder="De R$">
+            <input type="number" placeholder="Até R$">
+
+            <label><input type="checkbox"> Presencial</label>
+            <label><input type="checkbox"> Online</label>
+
+            <button>Aplicar Filtros</button>
+            <button>Limpar Filtros</button>
+        </aside>
+    </div>
+
+    <div class="interno">
+        <main class="main">
+            <div class="card">
+                <img src="https://images.sympla.com.br/6556622f94d62-lg.jpg" alt="Evento">
+                <div class="card-info">
+                    <h3>Jantar beneficente</h3>
+                    <p>📅 30/07/2025</p>
+                    <p>📍 Goiânia, GO</p>
+                    <p>💲 A partir de R$ 80,00</p>
+                </div>
+                <a th:href="@{/work-in-progress}">
+                    <button>Comprar</button>
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="https://uploads.maisgoias.com.br/2023/05/50501022-image.jpg" alt="Evento">
+                <div class="card-info">
+                    <h3>Campus Party</h3>
+                    <p>📅 15/09/2025</p>
+                    <p>📍 Goiânia, GO</p>
+                    <p>💲 A partir de R$ 50,00</p>
+                </div>
+                <a th:href="@{/work-in-progress}">
+                    <button>Comprar</button>
+                </a>
+            </div>
+
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJRPJ9Vp_c29jMVIpDVDocS3UdlnFv4X_pPg&s"
+                    alt="Evento">
+                <div class="card-info">
+                    <h3>Pecuária</h3>
+                    <p>📅 08/03/2025</p>
+                    <p>📍 Goiânia, GO</p>
+                    <p>💲 A partir de R$ 100,00</p>
+                </div>
+                <a th:href="@{/work-in-progress}">
+                    <button>Comprar</button>
+                </a>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

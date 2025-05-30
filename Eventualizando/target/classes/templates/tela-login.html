@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Eventualizando</title>
+    <link rel="stylesheet" th:href="@{/css/tela-login.css}">
+    <link rel="icon" th:href="@{/logo.ico}">
+</head>
+
+<body>
+    <div class="container">
+        <h1>EVENTUALIZANDO</h1>
+        <label for="email">Insira seu e-mail</label>
+        <input type="email" id="email">
+        <label for="password">Insira sua senha</label>
+        <input type="password" id="password">
+        <a th:href="@{/work-in-progress}">
+        <button >Entrar</button>
+        </a>
+        <a th:href="@{/usuarios/cadastro}">Não tenho login?</a>
+    </div>
+</body>
+
+</html>

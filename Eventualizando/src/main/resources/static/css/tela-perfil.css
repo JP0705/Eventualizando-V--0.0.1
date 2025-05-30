@@ -1,0 +1,133 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+}
+
+.container {
+
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0);
+    width: 99%;
+    height: 85%;
+
+}
+
+.conteiner_do_conteiner {
+    display: flex;
+}
+
+.topo{
+    background-color: #00BCD4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+}
+
+.lateral {
+    background-color: #008c9e;
+    width: 20%;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 20px;
+    color: white;
+}
+
+.profile{
+    margin-top: 15%;
+    margin-left: 22.5%;
+    border-radius: 70%;
+    height: 70%;
+    width: 50%;
+    object-fit: cover;
+}
+
+.opcao_lateral{
+    color: rgb(236, 236, 236);
+    font-size: larger;
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+
+.interno {
+    flex: 1;
+    padding: 40px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav ul li {
+    display:inline; 
+    margin-right: 10%;
+}
+
+.img1{
+    height: 65px;
+    width: 300px;
+}
+
+a {
+    text-align: center;
+    color: #00BCD4;
+    margin-bottom: 20px;
+}
+
+p {
+    margin: 0;
+    margin-left: 8%;
+    color: #ccc;
+}
+
+.texto {
+    font-family: sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 0;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="date"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.botao {
+    background-color: #00BCD4;
+    color: white;
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 35%;
+    transition-duration: 0.4s;
+}
+
+.botao:hover {
+  background-color: white;
+  color: #00BCD4;
+}

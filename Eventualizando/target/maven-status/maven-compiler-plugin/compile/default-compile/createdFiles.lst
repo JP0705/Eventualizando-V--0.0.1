@@ -1,0 +1,9 @@
+com\Eventualizando\model\Evento.class
+com\Eventualizando\Controllers\PaginasController.class
+com\Eventualizando\Controllers\UsuarioController.class
+com\Eventualizando\Eventualizando.class
+com\Eventualizando\repository\EventoRepository.class
+com\Eventualizando\model\Usuario.class
+com\Eventualizando\repository\UsuarioRepository.class
+com\Eventualizando\Controllers\HomeController.class
+com\Eventualizando\Controllers\EventoController.class

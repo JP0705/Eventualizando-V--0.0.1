@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de usuario</title>
+    <link rel="stylesheet" th:href="@{/css/tela-perfil.css}">
+    <link rel="icon" th:href="@{/logo.ico}">
+</head>
+
+<body>
+    <div class="container">
+        <div class="topo">
+            <nav>
+                <ul>
+                    <li>
+                        <a th:href="@{/eventos}">
+                            <img th:src="@{/images/EVENTUALIZANDO_A.png}">
+                        </a>
+                    </li>
+                    <li>
+                        <a th:href="@{/pesquisa}">Pesquisar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="conteiner_do_conteiner">
+            <div class="lateral">
+                <aside class="sidebar">
+
+
+                    <h1 class="opcao_lateral">Nome completo</h1>
+                    <p id="nome">nome usuario</p>
+
+                    <h2 class="opcao_lateral">Idade</h2>
+                    <p id="idade">idade</p>
+
+                    <h3 class="opcao_lateral">Telefone</h3>
+                    <p id="fone">telefone</p>
+
+                    <h4 class="opcao_lateral">E-mail</h4>
+                    <p id="email">email</p>
+                </aside>
+            </div>
+
+            <div class="interno">
+                <main class="main">
+                    <h1 class="texto" style="font-size: larger;">ALTERAÇÃO DE CADASTRO</h1>
+
+                    <label>Nome completo</label>
+                    <input type="text" id="nome1">
+
+                    <label>Data de nascimento</label>
+                    <input type="date" id="data1">
+
+                    <label>E-mail</label>
+                    <input type="email" id="email1">
+
+                    <label>Altere sua senha</label>
+                    <input type="password" id="password1">
+                    <a th:href="@{/work-in-progress}">
+                    <button class="botao">Alterar cadastro</button>
+                    </a>
+                </main>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

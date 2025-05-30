@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Eventualizando - Início</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="icon" th:href="@{/logo.ico}">
+</head>
+<body style="background-color: #d1d3dc;">
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #1c98df;">
+    <a class="navbar-brand" th:href="@{/eventos}" style="color: white; font-family: fantasy;">Eventualizando</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" th:href="@{/eventos}">Eventos</a></li>
+            <li class="nav-item"><a class="nav-link" th:href="@{/eventos/novo}">Cadastrar Evento</a></li>
+            <li class="nav-item"><a class="nav-link" th:href="@{/usuarios/cadastro}">Cadastro Usuário</a></li>
+            <li class="nav-item"><a class="nav-link" th:href="@{/login}">Login</a></li>
+            <li class="nav-item"><a class="nav-link" th:href="@{/perfil}">Perfil</a></li>
+            <li class="nav-item"><a class="nav-link" th:href="@{/carrinho}">Carrinho</a></li>
+            <li class="nav-item"><a class="nav-link" th:href="@{/pagamento}">Pagamento</a></li>
+            <li class="nav-item"><a class="nav-link" th:href="@{/pesquisa}">Pesquisa</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container text-center mt-5">
+    <h1>Bem-vindo ao Eventualizando!</h1>
+    <p>Gerencie e participe dos melhores evento da sua comunidade.</p>
+    <a class="btn btn-primary" th:href="@{/eventos}">Ver Eventos</a>
+
+</div>
+
+</body>
+</html>

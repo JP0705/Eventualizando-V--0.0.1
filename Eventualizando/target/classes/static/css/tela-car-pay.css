@@ -1,0 +1,56 @@
+body {
+    font-family: sans-serif;
+    background-color: #e0e0e0;
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.topo {
+    background-color: #00BCD4;
+    padding-right: 100%;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-bottom: 1.1%;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 150px;
+}
+
+.img1 {
+    justify-content: start;
+    text-align: start;
+    height: 65px;
+    width: 300px;
+}
+
+body.bg-custom {
+  background-color: #e0e0e0;
+}
+
+#carrinho-itens {
+  margin-top: 7%;
+  max-height: 60vh;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+}
+
+.btn-secondary {
+  background-color: #717179;
+  border-color: #717179;
+}
+
+.btn-secondary:hover {
+  background-color: #5c5d63;
+  border-color: #5c5d63;
+}
